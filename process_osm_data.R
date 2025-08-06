@@ -1,5 +1,5 @@
 ### SACOG Mobility Hubs
-### Extract and process OSM data (road network, major destinations)
+### Extract and process OSM data (to develop walkability index)
 ### 13-Feb-2024
 ### v1 - on Git
 
@@ -68,4 +68,5 @@ lyr$walkability %>%
 
 #next steps, add multi-use path entry points, and bang - list of points for pedestrian connectivity calculation. 
 # can we now join x = tracts to y = points, no need for spatial join just count number of intersections (ie like lenghts(st_intersection))
+
 # divide num intersections by tract area for unit intersection density
